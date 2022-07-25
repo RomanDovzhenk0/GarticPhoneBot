@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="1020.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.garticphonebot.MainController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="500.0" prefWidth="140.0" spacing="10.0" style="-fx-background-color: #D2B4DE;">
+         <children>
+            <VBox alignment="CENTER" prefHeight="260.0" prefWidth="127.0" spacing="10.0">
+               <children>
+                  <HBox alignment="CENTER" spacing="10.0">
+                     <children>
+                        <Rectangle fx:id="color1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                        <Rectangle fx:id="color2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                        <Rectangle fx:id="color3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" spacing="10.0">
+                     <children>
+                        <Rectangle fx:id="color4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                        <Rectangle fx:id="color5" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                        <Rectangle fx:id="color6" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" spacing="10.0">
+                     <children>
+                        <Rectangle fx:id="color7" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                        <Rectangle fx:id="color8" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                        <Rectangle fx:id="color9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" spacing="10.0">
+                     <children>
+                        <Rectangle fx:id="color10" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                        <Rectangle fx:id="color11" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                        <Rectangle fx:id="color12" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" spacing="10.0">
+                     <children>
+                        <Rectangle fx:id="color13" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                        <Rectangle fx:id="color14" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                        <Rectangle fx:id="color15" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" spacing="10.0">
+                     <children>
+                        <Rectangle fx:id="color16" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                        <Rectangle fx:id="color17" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                        <Rectangle fx:id="color18" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <Button fx:id="setColorsButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="130.0" text="Set Color Buttons" />
+            <Slider fx:id="qualityPicker" blockIncrement="1.0" majorTickUnit="1.0" max="5.0" min="1.0" minorTickCount="0" showTickLabels="true" snapToTicks="true" value="1.0" />
+            <Button fx:id="openImageButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="130.0" text="Open image" />
+            <Button fx:id="setSizeButtons" mnemonicParsing="false" prefHeight="25.0" prefWidth="130.0" text="Set Size Buttons" />
+            <Button fx:id="setFrameButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="130.0" text="Set Frame" />
+            <Button fx:id="startButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="130.0" text="Start" />
+         </children>
+      </VBox>
+      <ImageView fx:id="image" fitHeight="500.0" fitWidth="890.0" layoutX="130.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="inputImage" disable="true" fitHeight="112.0" fitWidth="200.0" layoutX="140.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
